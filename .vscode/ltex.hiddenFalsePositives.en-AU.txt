@@ -1,0 +1,23 @@
+{"rule":"MORFOLOGIK_RULE_EN_AU","sentence":"^\\QMy browser is Firefox, my code editor is currently Code - OSS from Flathub (because the VSCodium flatpak is completely borked in my experience)\\E$"}
+{"rule":"A_COLLECTIVE_OF_NN","sentence":"^\\QDon't install any desktop environments through the software selection menu: This menu gives you the full fat version of your selected DE, including a bunch of bloat you are never going to use.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_AU","sentence":"^\\Q{% highlight bash %} sudo apt update sudo apt upgrade {% endhighlight %}\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_AU","sentence":"^\\QThis is the most commonly recommended method of installing software through Nix on non-NixOS distros.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_AU","sentence":"^\\QThis means I am able to have a Bazzite container for gaming, software from the AUR on an Arch container, a couple of PPAs on an Ubuntu container, and even DaVinci Resolve on an RHEL/Alma container, all at full performance without messing with my host system!\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QBackports\nBackports is an official repository you can add to Debian which takes updates to some programs from the \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q branches and (as the name suggests) backports them to stable.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QBackports\nBackports is an official repository you can add to Debian which takes updates to some programs from the \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q branches and (as the name suggests) back ports them to stable.\\E$"}
+{"rule":"FILE_EXTENSIONS_CASE","sentence":"^\\Q{% highlight xml %}\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qnix-env\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qhome-manager\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QAppImages\nAppImages are all statically compiled, and do not have a centralized package management system.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QAppImages\nAppImages are all statically compiled, and do not have a centralised package management system.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_AU","sentence":"^\\QI got Steam from Flathub, and the ProtonPlus flatpak to install Proton-GE (a patched version of Proton to improve game compatibility and performance)\\E$"}
+{"rule":"HE_VERB_AGR","sentence":"^\\QHello everybody out there using minix -\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_AU","sentence":"^\\QHello everybody out there using minix -\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_AU","sentence":"^\\QThis has been brewing since april, and is starting to get ready.\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QI'd like any feedback on things people like/dislike in minix, as my OS resembles it somewhat (same physical layout of the file-system (due to practical reasons) among other things).\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_AU","sentence":"^\\QI've currently ported bash(1.08) and gcc(1.40), and things seem to work.\\E$"}
+{"rule":"EN_COMPOUNDS","sentence":"^\\QYes - it's free of any minix code, and it has a multi-threaded fs.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_AU","sentence":"^\\QYes - it's free of any minix code, and it has a multi-threaded fs.\\E$"}
+{"rule":"CD_NN","sentence":"^\\QIt is NOT portable (uses 386 task switching etc), and it probably never will support anything other than AT-harddisks, as that's all I have :-(.\\E$"}
+{"rule":"ADVERB_WORD_ORDER","sentence":"^\\QIt is NOT portable (uses 386 task switching etc), and it probably never will support anything other than AT-harddisks, as that's all I have :-(.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_AU","sentence":"^\\QIt is NOT portable (uses 386 task switching etc), and it probably never will support anything other than AT-harddisks, as that's all I have :-(.\\E$"}
