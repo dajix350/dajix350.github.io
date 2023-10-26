@@ -1,0 +1,10 @@
+<nav>
+    <a href="/" class="noline"> 
+        <img src="/assets/images/logo.svg" alt="hahafunnialt">
+        <!-- <div class="navtitle"><pre><h1>             _ _     <br>            | | |    <br> _   _  __ _| | |__  <br>| | | |/ _` | | '_ \ <br>| |_| | (_| | | |_) |<br> \__, |\__,_|_|_.__/ <br>  __/ |              <br> |___/               </h1></pre></div> -->
+    </a>
+    {% for item in site.data.home.navbar_entries %}
+      <a href="{{ item.url }}" class="button"><b>{{ item.title }}</b></a>
+  {% endfor %}
+</nav>
+  

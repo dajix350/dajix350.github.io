@@ -1,0 +1,27 @@
+---
+layout: default
+title: 
+nav: false
+ct: true
+---
+<header>
+  <h3 style="text-align: center;">
+  {% for item in site.data.home.navbar_entries %}
+    <a href="{{ item.url }}" class="button">{{ item.title }}</a>
+  {% endfor %}
+</h3>
+<pre><h1 class="hometitle" style="text-align: center;">             _ _     <br>            | | |    <br> _   _  __ _| | |__  <br>| | | |/ _` | | '_ \ <br>| |_| | (_| | | |_) |<br> \__, |\__,_|_|_.__/ <br>  __/ |              <br> |___/               </h1></pre>
+</header>
+<hr class="bored">
+<body>
+  <ul>
+    {% for post in site.posts %}
+      <li class="poli">
+        <a href="{{ post.url }}" style="text-decoration: none; color: rgb(236, 236, 236);">
+          <b>{{ post.title }}</b> - <i>{{ post.date | date_to_string}}</i>
+          {{ post.excerpt }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</body>
