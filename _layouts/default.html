@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="shortcut icon" type="image/svg" href="/favicon.svg">
   </head>
   {% if page.nav != false %}
   {% include nav.html %}
   {% endif %}
   <body>
+    {% if page.showtitle != false %}
     <h1 {% if page.ct != false %} style="text-align: center;" {% endif %}>{{ page.title }}</h1>
+    {% endif %}
     {{ content }}
   </body>
 </html>
